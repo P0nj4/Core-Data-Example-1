@@ -21,6 +21,8 @@
 		4456A2041963044C00EFE665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4456A1E61963044C00EFE665 /* UIKit.framework */; };
 		4456A20C1963044C00EFE665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4456A20A1963044C00EFE665 /* InfoPlist.strings */; };
 		4456A20E1963044C00EFE665 /* Core_Data_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4456A20D1963044C00EFE665 /* Core_Data_ExampleTests.m */; };
+		4456A2181963046700EFE665 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4456A2171963046700EFE665 /* CoreData.framework */; };
+		4456A21B1963072600EFE665 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4456A2191963072600EFE665 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4456A2091963044C00EFE665 /* Core Data ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Core Data ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		4456A20B1963044C00EFE665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4456A20D1963044C00EFE665 /* Core_Data_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Data_ExampleTests.m; sourceTree = "<group>"; };
+		4456A2171963046700EFE665 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4456A21A1963072600EFE665 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4456A2181963046700EFE665 /* CoreData.framework in Frameworks */,
 				4456A1E51963044C00EFE665 /* CoreGraphics.framework in Frameworks */,
 				4456A1E71963044C00EFE665 /* UIKit.framework in Frameworks */,
 				4456A1E31963044C00EFE665 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		4456A1E11963044C00EFE665 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4456A2171963046700EFE665 /* CoreData.framework */,
 				4456A1E21963044C00EFE665 /* Foundation.framework */,
 				4456A1E41963044C00EFE665 /* CoreGraphics.framework */,
 				4456A1E61963044C00EFE665 /* UIKit.framework */,
@@ -114,6 +120,7 @@
 			children = (
 				4456A1F11963044C00EFE665 /* AppDelegate.h */,
 				4456A1F21963044C00EFE665 /* AppDelegate.m */,
+				4456A2191963072600EFE665 /* Model.xcdatamodeld */,
 				4456A1F41963044C00EFE665 /* Main.storyboard */,
 				4456A1F71963044C00EFE665 /* ViewController.h */,
 				4456A1F81963044C00EFE665 /* ViewController.m */,
@@ -252,6 +259,7 @@
 				4456A1F91963044C00EFE665 /* ViewController.m in Sources */,
 				4456A1F31963044C00EFE665 /* AppDelegate.m in Sources */,
 				4456A1EF1963044C00EFE665 /* main.m in Sources */,
+				4456A21B1963072600EFE665 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +474,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4456A2191963072600EFE665 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4456A21A1963072600EFE665 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4456A21A1963072600EFE665 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4456A1D71963044C00EFE665 /* Project object */;
 }
